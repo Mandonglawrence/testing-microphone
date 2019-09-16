@@ -1,0 +1,59 @@
+{
+  "event": [
+    {
+      "id": 1,
+      "title": "wedding",
+      "venue": "Eko hotel",
+      "date": "21/09/2019 TM 04:00pm"
+    },
+    {
+      "title": "qwerty",
+      "venue": "ytrewq",
+      "date": "qwerty",
+      "id": 2
+    },
+    {
+      "title": "Jennifer's Meetup",
+      "venue": "eko hotel Lagos nigeria",
+      "date": "223/09/2019",
+      "id": 3
+    },
+    {
+      "title": "Jennifer's Meetup",
+      "venue": "eko hotel Lagos nigeria",
+      "date": "223/09/2019",
+      "id": 4
+    },
+    {
+      "title": "Jennifer's Meetup",
+      "venue": "eko hotel Lagos nigeria",
+      "date": "223/09/2019",
+      "id": 5
+    },
+    {
+      "title": "Jennifer's Meetup",
+      "venue": "eko hotel Lagos nigeria",
+      "date": "223/09/2019",
+      "id": 6
+    },
+    {
+      "title": "Jennifer's Meetup",
+      "venue": "eko hotel Lagos nigeria",
+      "date": "223/09/2019",
+      "id": 7
+    },
+    {
+      "title": "Jennifer's Meetup",
+      "venue": "eko hotel Lagos nigeria",
+      "date": "223/09/2019",
+      "id": 8
+    }
+  ],
+  "attendies": [
+    {
+      "id": 1,
+      "email": "jennifer@weedingparol.com",
+      "phone": "08033278655"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test</title>
+</head>
+
+<body>
+    <h1>Welcome</h1>
+    <form>
+        <label for="title">Title
+            <input type="text" id="title" />
+        </label> <br>
+
+        <label for="venue">Venue
+            <input type="text" id="venue" />
+        </label> <br>
+
+        <label for="date">Date
+
+            <input type="text" id="date" />
+        </label> <br>
+
+        <button type="submit">submit</button>
+    </form>
+
+
+
+
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+
+    <script src="./jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('form').on('submit', function(e){
+                e.preventDefault();
+                let title = $('#title').val();
+                let venue = $('#venue').val();
+                let date = $('#date').val();
+                console.log(title)
+                console.log(venue)
+                console.log(date)
+                $.ajax({
+                    url: "http://localhost:3000/event", success: function (result) {
+                        // $("#div1").html(result);
+                        console.log(result)
+                    },
+                    method: "POST",
+                    data: {
+                        title,
+                        venue,
+                        date
+                    }
+                });
+            })
+            
+        });
+
+    </script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
